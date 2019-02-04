@@ -1,0 +1,37 @@
+/* Also, this looks more nice without window corner buttons */
+/* And more nice when you disabled all possible buttons on customization page */
+
+/* Close button disabling */
+.tab-close-button {
+	display: none !important;
+}
+
+/* Disabling forward-backward buttons */
+#back-button, #forward-button {
+	display: none !important;
+}
+
+/* No more buttons in end of url bar for except of zoom factor */
+#star-button-box, #pocket-button-box, #pageActionButton {
+	display: none !important;
+}
+
+#nav-bar #urlbar .urlbar-textbox-container .urlbar-history-dropmarker {
+	display: none !important;
+}
+
+/* I don't want to see this line, but it's more comfortable to put elements after */
+#pageActionSeparator {
+	visibility: hidden !important;
+	margin: 0 !important;
+}
+
+/* I don't need it, plus it takes more height */
+#wrapper-alltabs-button, #alltabs-button {
+	display: none !important;
+}
+
+/* Zoom button */
+#urlbar-zoom-button {
+	display: none !important;
+}

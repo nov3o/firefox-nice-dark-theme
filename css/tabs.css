@@ -1,0 +1,64 @@
+/* Color */
+/* ===== */
+/* Disables tabs' background color and tab line */
+.tab-background {
+	display: none !important;
+}
+
+/* Text color transition */
+.tabbrowser-tab[selected="true"] {
+	color: #fff !important;
+}
+
+.tabbrowser-tab:not([selected]):hover {
+	color: #D3D3D3 !important;
+}
+
+.tabbrowser-tab:not([selected]) {
+	color: #A9A9A9 !important;
+}
+
+.tabbrowser-tab[pending] {
+	color: #515151 !important;
+}
+
+
+/* Misc */
+/* Remove borders from inactive tabs */
+.tabbrowser-tab::after, .tabbrowser-tab::before {
+   border-left: none !important;
+}
+
+/* Removes space in the beginning and end of tab bar */
+.titlebar-spacer {
+	display: none !important;
+}
+
+/* Favicons rounding */
+.tab-icon-image {
+	border-radius: 50% !important;
+}
+/* Remove borders from active tab and below tabs */
+:root {
+	--tabs-border: transparent !important;
+}
+
+
+/* Minimizing */
+/* ==========*/
+:root {
+	--tab-min-height: 20px !important;
+}
+/* Without next tabs looks some decent */
+.tab-label {
+/* 	line-height: 1em !important; */
+}
+/* If you enable one above, enable one below */
+.tab-text {
+/* 	margin: 1px !important;  */
+}
+
+/* No horizontal tab padding, you shouldn't do this */
+.tab-content {
+/* 	padding: 0 !important; */
+}
