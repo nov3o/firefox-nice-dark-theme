@@ -1,5 +1,10 @@
+/* For dark theme nice to use Dark Reader: */
+/* https://addons.mozilla.org/en-US/firefox/addon/darkreader/?src=search */
+
 @import "css/tabs.css";
 
 @import "css/buttons.css";
 
 @import "css/urlbar.css";
+
+@import "css/other.css";

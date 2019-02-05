@@ -1,0 +1,26 @@
+/* We need to specify url, cause non-url htmls, like extensions */
+/* will have scrollbar too, but it won't be cut */
+@-moz-document url-prefix("http"), url-prefix("about:") {
+	body {
+		overflow: scroll;
+	}
+}
+
+@-moz-document url("about:newtab"), url("about:home") {
+	/* You can change any setting */
+	html {
+		height: 100%;
+		overflow: hidden;
+		/* Dark theme's color */
+		background: #0c0c0c;
+		background-image: url(images/firefox.png);
+		background-position: center;
+		background-size: 200px;
+		background-repeat: no-repeat;
+	}
+	/* If content won't exist, browser will think we at nowhere, */
+	/* so shortcuts, handling in body, won't work */
+	body {
+		visibility: hidden;
+	}
+}

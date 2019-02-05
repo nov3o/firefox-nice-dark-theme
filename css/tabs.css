@@ -24,6 +24,7 @@
 
 
 /* Misc */
+/* ==== */
 /* Remove borders from inactive tabs */
 .tabbrowser-tab::after, .tabbrowser-tab::before {
    border-left: none !important;
@@ -49,7 +50,7 @@
 :root {
 	--tab-min-height: 20px !important;
 }
-/* Without next tabs looks some decent */
+/* Tabs looks some more decent without next */
 .tab-label {
 /* 	line-height: 1em !important; */
 }
@@ -61,4 +62,19 @@
 /* No horizontal tab padding, you shouldn't do this */
 .tab-content {
 /* 	padding: 0 !important; */
+}
+
+/* Disables white separator of tab bar arrows */
+.arrowscrollbox-overflow-end-indicator, .arrowscrollbox-overflow-start-indicator {
+	display: none !important;
+}
+
+/* Change it, as you wish */
+.scrollbutton-up, .scrollbutton-down {
+	padding: 0 !important;
+}
+
+/* Without it will be gap between right arrow and browser's right border */
+#TabsToolbar .titlebar-buttonbox-container {
+	display: none !important;
 }

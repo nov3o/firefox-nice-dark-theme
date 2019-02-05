@@ -11,11 +11,18 @@
 	display: none !important;
 }
 
-/* No more buttons in end of url bar for except of zoom factor */
-#star-button-box, #pocket-button-box, #pageActionButton {
+/* Disable "Switch to tab" before utl bar text */
+#urlbar-display-box {
 	display: none !important;
 }
 
+/* No more buttons in end of url bar for except of zoom factor */
+#pocket-button-box, #pageActionButton, 
+#reader-mode-button, #contextual-feature-recommendation {
+	display: none !important;
+}
+
+/* Disables down arrow */
 #nav-bar #urlbar .urlbar-textbox-container .urlbar-history-dropmarker {
 	display: none !important;
 }
@@ -33,5 +40,20 @@
 
 /* Zoom button */
 #urlbar-zoom-button {
+	display: none !important;
+}
+
+/* Disables search icon on left of url bar */
+#urlbar[pageproxystate="invalid"] > #identity-box > #identity-icon {
+	display: none !important;
+}
+
+/* Disables left arrow after url bar */
+.urlbar-go-button, .search-go-button {
+	display: none !important;
+}
+
+/* Hides stars of only unfavored pages */
+#star-button:not([starred]) {
 	display: none !important;
 }

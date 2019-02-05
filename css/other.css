@@ -1,0 +1,9 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* With userContent rule every page will have scrollbar by default, */
+/* so next rule won't cut page's content */
+/* Change values to yours */
+:-moz-any(#content,#appcontent) browser{
+  margin-right:-11px!important;
+  margin-bottom:-12px!important;
+}
