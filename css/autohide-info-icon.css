@@ -20,7 +20,7 @@
 
 /* More nice */
 #identity-box #identity-icon-labels {
-	padding-left: 2px !important;
+	padding-left: 0px !important;
 }
 
 /* Hides and shows only when popup is open or hover */

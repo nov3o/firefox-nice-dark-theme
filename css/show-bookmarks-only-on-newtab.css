@@ -7,13 +7,16 @@
   visibility: collapse !important;
 }
 
+/* I need to use absolute values to prevent "jump" of homepage image */
 #main-window[title^="about:newtab"] #PersonalToolbar,
 #main-window[title^="New Tab"] #PersonalToolbar,
 #main-window[title^="Nightly"] #PersonalToolbar,
 #main-window[title^="Mozilla Firefox"] #PersonalToolbar,
 #main-window[title^="Firefox"] #PersonalToolbar,
 #main-window[title^="新标签页"] #PersonalToolbar {
-  margin-top: 5px; 
+  position: absolute;
+  top: 45px; /* Place here your navigator-toolbox height */
+  width: 100%; /* Because of absolution line becumes "cut" */
   visibility: visible !important;
   background-color: transparent !important;
 }
