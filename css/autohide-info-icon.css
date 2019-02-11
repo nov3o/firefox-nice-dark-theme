@@ -42,3 +42,8 @@
   opacity: 1 !important;;
   -moz-margin-end: initial !important;
 }
+
+/* Thats better */
+#identity-box #identity-icon-labels {
+  max-width: 33vw !important;
+}

@@ -7,19 +7,16 @@
 
 /* Text color transition */
 .tabbrowser-tab[selected="true"] {
-	color: #fff !important;
+	color: var(--tab-color-active) !important;
 }
-
 .tabbrowser-tab:not([selected]):hover {
-	color: #D3D3D3 !important;
+	color: var(--tab-color-hover) !important;
 }
-
 .tabbrowser-tab:not([selected]) {
-	color: #A9A9A9 !important;
+	color: var(--tab-color-inactive) !important;
 }
-
 .tabbrowser-tab[pending] {
-	color: #515151 !important;
+	color: var(--tab-color-pending) !important;
 }
 
 

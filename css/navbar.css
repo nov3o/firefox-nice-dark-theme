@@ -23,3 +23,13 @@
 	min-height: 20px !important;
 	height: 20px !important;
 }
+
+/* Disables line between the nav bar and bookmark toolbar */
+#navigator-toolbox::after {
+	border-bottom: none !important;
+}
+
+/* Disables line between tab bar and nav bar */
+#navigator-toolbox {
+	--tabs-border-color: transparent !important;
+}

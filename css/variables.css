@@ -1,0 +1,16 @@
+:root {
+	--background: #0c0c0c;
+	--tab-color-active: #fff;
+	--tab-color-hover: #c5c5c5;
+	--tab-color-inactive: #8b8b8b;
+	--tab-color-pending: #515151;
+}
+
+/* For light theme */
+/*:root {
+	--background: #e3e4e6;
+	--tab-color-active: #000;
+	--tab-color-hover: #3a3a3a;
+	--tab-color-inactive: #747474;
+	--tab-color-pending: #aeaeae;
+}*/

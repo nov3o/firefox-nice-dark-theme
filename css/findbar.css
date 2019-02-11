@@ -1,5 +1,6 @@
 findbar {
-	background: #0c0c0c !important;
+	background: var(--background) !important;
+	border: none !important;
 }
 
 .findbar-container hbox * {
@@ -17,4 +18,8 @@ findbar toolbarbutton {
 
 findbar .tabbable {
 	padding: 0 4px !important;
+}
+
+findbar .textbox-input {
+	color: var(--tab-color-hover) !important;
 }
