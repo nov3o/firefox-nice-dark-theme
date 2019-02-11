@@ -1,0 +1,25 @@
+#urlbar {
+	margin:0 !important;
+	background-color: transparent !important;
+	border-radius: 1em !important;
+	border: none !important;
+}
+
+#nav-bar {
+	background: none !important;
+}
+
+/* Next rules decreases nav bar's height */
+#nav-bar #PanelUI-button .toolbarbutton-badge-stack {
+	padding: 2px !important;
+}
+#identity-box {
+	height: 20px !important;
+	padding-left: 2px !important;
+	padding-right: 2px !important;
+	margin-right: 2px !important;
+}
+#urlbar {
+	min-height: 20px !important;
+	height: 20px !important;
+}

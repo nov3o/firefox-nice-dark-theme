@@ -1,11 +1,3 @@
-/* We need to specify url, cause non-url htmls, like extensions */
-/* will have scrollbar too, but it won't be cut */
-@-moz-document url-prefix("http"), url-prefix("about:") {
-	body {
-		overflow: scroll;
-	}
-}
-
 @-moz-document url("about:newtab"), url("about:home") {
 	/* You can change any setting */
 	html {

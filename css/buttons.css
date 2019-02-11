@@ -48,6 +48,12 @@
 	display: none !important;
 }
 
+#urlbar[pageproxystate="invalid"] > #identity-box {
+	padding: 0 !important;
+	height: 20px !important;
+}
+
+
 /* Disables left arrow after url bar */
 .urlbar-go-button, .search-go-button {
 	display: none !important;
@@ -56,4 +62,14 @@
 /* Hides stars of only unfavored pages */
 #star-button:not([starred]) {
 	display: none !important;
+}
+
+#nav-bar #PanelUI-button .toolbarbutton-badge-stack {
+	padding: 2px !important;
+}
+
+#identity-box {
+	padding-left: 4px !important;
+	margin: -3 0 !important;
+	border: none !important;
 }

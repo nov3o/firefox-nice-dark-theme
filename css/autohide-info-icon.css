@@ -1,0 +1,44 @@
+/*
+  Modified code from
+  https://github.com/Timvde/UserChrome-Tweaks/blob/master/navbar/autohide-info-icon.css
+*/
+
+/* Reverses */
+#identity-box {
+	-moz-box-direction: reverse;
+}
+
+/* Not to look too dense */
+#identity-box #identity-icon {
+  -moz-margin-start: 0.2em !important;
+}
+
+/* Space between identity icon label and lock */
+#identity-box #connection-icon {
+  margin-inline-start: 2px !important;
+}
+
+/* More nice */
+#identity-box #identity-icon-labels {
+	padding-left: 2px !important;
+}
+
+/* Hides and shows only when popup is open or hover */
+#identity-box:not([open="true"]) #tracking-protection-icon-box,
+#identity-box:not([open="true"]) #identity-icon-labels,
+#identity-box:not([open="true"]) #blocked-permissions-container {
+  visibility: collapse !important;
+}
+#identity-box:hover #tracking-protection-icon-box,
+#identity-box:hover #identity-icon-labels,
+#identity-box:hover #blocked-permissions-container {
+  visibility: visible !important;
+}
+#urlbar #identity-box:not([open="true"]) #identity-icon {
+  opacity: 0;
+  -moz-margin-end: -1.2em;
+}
+#identity-box:hover #identity-icon {
+  opacity: 1 !important;;
+  -moz-margin-end: initial !important;
+}

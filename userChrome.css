@@ -5,6 +5,10 @@
 
 @import "css/buttons.css";
 
-@import "css/urlbar.css";
+@import "css/navbar.css";
 
 @import "css/other.css";
+
+@import "css/autohide-info-icon.css";
+
+@import "css/move-identity-lock-right.css";
