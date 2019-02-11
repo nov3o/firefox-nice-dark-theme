@@ -7,8 +7,10 @@
 
 @import "css/navbar.css";
 
-@import "css/other.css";
-
 @import "css/autohide-info-icon.css";
 
 @import "css/move-identity-lock-right.css";
+
+@import "css/show-bookmarks-only-on-newtab.css";
+
+@import "css/findbar.css";

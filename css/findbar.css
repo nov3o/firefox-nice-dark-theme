@@ -1,0 +1,20 @@
+findbar {
+	background: #0c0c0c !important;
+}
+
+.findbar-container hbox * {
+	border: none !important;
+	background: transparent !important;
+}
+
+findbar .findbar-container {
+	padding: 0 10px !important;
+}
+
+findbar toolbarbutton {
+	padding: 0 !important;
+}
+
+findbar .tabbable {
+	padding: 0 4px !important;
+}

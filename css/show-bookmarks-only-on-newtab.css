@@ -1,0 +1,19 @@
+/* 
+  Modified code from
+  https://github.com/Timvde/UserChrome-Tweaks/blob/master/toolbars/show-bookmarks-only-on-newtab.css
+*/
+
+#main-window #PersonalToolbar {
+  visibility: collapse !important;
+}
+
+#main-window[title^="about:newtab"] #PersonalToolbar,
+#main-window[title^="New Tab"] #PersonalToolbar,
+#main-window[title^="Nightly"] #PersonalToolbar,
+#main-window[title^="Mozilla Firefox"] #PersonalToolbar,
+#main-window[title^="Firefox"] #PersonalToolbar,
+#main-window[title^="新标签页"] #PersonalToolbar {
+  margin-top: 5px; 
+  visibility: visible !important;
+  background-color: transparent !important;
+}
