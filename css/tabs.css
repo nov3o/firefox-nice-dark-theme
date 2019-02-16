@@ -8,6 +8,9 @@
 /* Text color transition */
 .tabbrowser-tab[selected="true"] {
 	color: var(--tab-color-active) !important;
+	background: var(--tab-active-background) !important;
+	border-top-left-radius: var(--tab-active-rounding) !important; 
+	border-top-right-radius: var(--tab-active-rounding) !important; 
 }
 .tabbrowser-tab:not([selected]):hover {
 	color: var(--tab-color-hover) !important;
@@ -18,6 +21,8 @@
 .tabbrowser-tab[pending] {
 	color: var(--tab-color-pending) !important;
 }
+
+
 
 
 /* Misc */

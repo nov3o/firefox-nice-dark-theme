@@ -1,4 +1,4 @@
-/* 
+/*
   Modified code from
   https://github.com/Timvde/UserChrome-Tweaks/blob/master/toolbars/show-bookmarks-only-on-newtab.css
 */
@@ -14,18 +14,6 @@
 #main-window[title^="Mozilla Firefox"] #PersonalToolbar,
 #main-window[title^="Firefox"] #PersonalToolbar,
 #main-window[title^="新标签页"] #PersonalToolbar {
-  position: absolute;
-  width: 100%; /* Because of absolution line becumes "cut" */
   visibility: visible !important;
   background-color: transparent !important;
-}
-
-/* Next is for opening of top menu */
-/* But, bookmark menu works even without it */
-#toolbar-menubar:not([inactive]) #PersonalToolbar {
-/* Place here your navigator-toolbox height */
-/*   top: 45px;  */
-}
-#toolbar-menubar[inactive="true"] #PersonalToolbar {
-/*   top: 66px; */
 }

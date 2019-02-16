@@ -1,5 +1,5 @@
 findbar {
-	background: var(--background) !important;
+	background: var(--background-first) !important;
 	border: none !important;
 }
 
@@ -22,4 +22,10 @@ findbar .tabbable {
 
 findbar .textbox-input {
 	color: var(--tab-color-hover) !important;
+}
+
+findbar .findbar-textbox {
+	background: var(--background-second) !important; 
+/* Makes smallest possible size */
+	padding: 0 !important;
 }

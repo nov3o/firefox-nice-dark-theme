@@ -3,10 +3,12 @@
 	background-color: transparent !important;
 	border-radius: 1em !important;
 	border: none !important;
+	background: var(--background-second) !important; 
 }
 
 #nav-bar {
-	background: none !important;
+	background: var(--background-first) !important;
+	padding: var(--nav-bar-padding) !important;
 }
 
 /* Next rules decreases nav bar's height */

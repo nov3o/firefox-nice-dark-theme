@@ -7,7 +7,7 @@
 		height: 100%;
 		overflow: hidden;
 		/* Dark theme's color */
-		background: var(--background);
+		background: var(--background-first);
 		background-image: url(images/firefox.png);
 		background-position: center;
 		background-size: 200px;
