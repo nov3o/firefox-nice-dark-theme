@@ -40,4 +40,7 @@
 	--nav-bar-padding: 2px;
 	--tab-active-background: #515658;
 	--tab-active-rounding: 5px;
+	/* You should set the same size */
+	--scroll-bar-remove: -12px;
+	--scroll-bar-height: 12px;
 }

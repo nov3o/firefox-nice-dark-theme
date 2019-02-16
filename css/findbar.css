@@ -27,5 +27,5 @@ findbar .textbox-input {
 findbar .findbar-textbox {
 	background: var(--background-second) !important; 
 /* Makes smallest possible size */
-	padding: 0 !important;
+/* 	padding: 0 !important; */
 }

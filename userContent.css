@@ -5,13 +5,14 @@
 	/* You can change any setting */
 	html {
 		height: 100%;
-		overflow: hidden;
-		/* Dark theme's color */
+		/* For disabling scrollbar */
+		overflow: scroll;
 		background: var(--background-first);
 		background-image: url(images/firefox.png);
 		background-position: center;
 		background-size: 200px;
 		background-repeat: no-repeat;
+
 	}
 	/* If content won't exist, browser will think we at nowhere, */
 	/* so shortcuts, handling in body, won't work */

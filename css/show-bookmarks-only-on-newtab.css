@@ -7,7 +7,6 @@
   visibility: collapse !important;
 }
 
-/* I need to use absolute values to prevent "jump" of homepage image */
 #main-window[title^="about:newtab"] #PersonalToolbar,
 #main-window[title^="New Tab"] #PersonalToolbar,
 #main-window[title^="Nightly"] #PersonalToolbar,
