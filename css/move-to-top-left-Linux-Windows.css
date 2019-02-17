@@ -1,0 +1,28 @@
+/*
+	Modified code from
+	https://github.com/Timvde/UserChrome-Tweaks/blob/master/hamburger/move-to-top-left-Linux-Windows.css
+*/
+
+#PanelUI-button {
+  -moz-box-ordinal-group: 0;
+  border-left: none !important;
+  position: absolute; 
+}
+
+#PanelUI-button {
+/* Nice */
+  margin-top: -23px;
+/* Hot spot */
+  margin-top: -25px;
+}
+
+/* For hot spot */
+#PanelUI-button .toolbarbutton-badge-stack {
+  border-radius: 0 !important;
+  border-bottom-right-radius: var(--toolbarbutton-border-radius) !important;
+}
+
+#TabsToolbar {
+  /* Ensure the padding is always present even when maximized */
+  padding-inline-start: 22px !important;
+}

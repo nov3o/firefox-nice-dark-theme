@@ -3,8 +3,15 @@
 /* background-second: address field, findbar field and tabs;
    changes nav bar address field and findbar field */
 
+/* Set opposite values */
+:root {
+	--scroll-bar-remove: -12px;
+	--scroll-bar-height: 12px;
+	--max-tab-width: 100vw;
+}
+
 /* For dark theme */
-/*:root {
+/* :root {
 	--background-first: #0c0c0c;
 	--background-second: transparent;
 	--tab-color-active: #fff;
@@ -14,10 +21,10 @@
 	--nav-bar-padding: 0;
 	--tab-active-background: transparent;
 	--tab-active-rounding: 0;
-}*/
+} */
 
 /* For light theme */
-/*:root {
+/* :root {
 	--background-first: #e3e4e6;
 	--background-second: transparent;
 	--tab-color-active: #000;
@@ -37,10 +44,7 @@
 	--tab-color-hover: #c5c5c5;
 	--tab-color-inactive: #8b8b8b;
 	--tab-color-pending: #515151;
-	--nav-bar-padding: 2px;
+	--url-bar-margin: 2px;
 	--tab-active-background: #515658;
 	--tab-active-rounding: 5px;
-	/* You should set the same size */
-	--scroll-bar-remove: -12px;
-	--scroll-bar-height: 12px;
 }

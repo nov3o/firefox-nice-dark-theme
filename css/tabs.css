@@ -9,8 +9,8 @@
 .tabbrowser-tab[selected="true"] {
 	color: var(--tab-color-active) !important;
 	background: var(--tab-active-background) !important;
-	border-top-left-radius: var(--tab-active-rounding) !important; 
-	border-top-right-radius: var(--tab-active-rounding) !important; 
+	border-top-left-radius: var(--tab-active-rounding) !important;
+	border-top-right-radius: var(--tab-active-rounding) !important;
 }
 .tabbrowser-tab:not([selected]):hover {
 	color: var(--tab-color-hover) !important;
@@ -64,6 +64,19 @@
 /* No horizontal tab padding, you shouldn't do this */
 .tab-content {
 /* 	padding: 0 !important; */
+}
+
+/* Not you can have tab with width of window */
+/* But you shouldn't make this with Default theme */
+/* Disable it, if you want default tab width */
+.tabbrowser-tab {
+	max-width: var(--max-tab-width) !important;
+}
+
+/* When you close browser, node doesn't deletes, just removes fadein attr */
+/* Next is to prevent having empty space of closed tab */
+.tabbrowser-tab:not([fadein="true"]) {
+	display: none !important;
 }
 
 /* Disables white separator of tab bar arrows */

@@ -15,3 +15,6 @@
 @import "css/findbar.css";
 
 @import "css/remove-scrollbar.css";
+
+/* You can enable it */
+@import "css/move-to-top-left-Linux-Windows.css";

@@ -6,7 +6,7 @@
 	html {
 		height: 100%;
 		/* For disabling scrollbar */
-		overflow: scroll;
+		overflow: hidden;
 		background: var(--background-first);
 		background-image: url(images/firefox.png);
 		background-position: center;
