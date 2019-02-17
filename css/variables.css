@@ -3,22 +3,39 @@
 /* background-second: address field, findbar field and tabs;
    changes nav bar address field and findbar field */
 
-/* Set opposite values */
+/* Global */
 :root {
+	/* Set opposite values */
 	--scroll-bar-remove: -12px;
 	--scroll-bar-height: 12px;
-	--max-tab-width: 100vw;
+
+	--max-tab-width: 100vw; /* One tab in whole bar */
 }
 
-/* For dark theme */
-/* :root {
-	--background-first: #0c0c0c;
-	--background-second: transparent;
+
+/* Text color */
+/* Bright colors */
+ :root {
 	--tab-color-active: #fff;
 	--tab-color-hover: #c5c5c5;
 	--tab-color-inactive: #8b8b8b;
 	--tab-color-pending: #515151;
-	--nav-bar-padding: 0;
+}
+/* Dark colors y*/
+/* :root {
+	--tab-color-active: #000;
+	--tab-color-hover: #3a3a3a;
+	--tab-color-inactive: #747474;
+	--tab-color-pending: #aeaeae;
+} */
+
+
+/* Themes */
+/* For dark theme */
+/* :root {
+	--background-first: #0c0c0c;
+	--background-second: transparent;
+	--url-bar-margin: 0;
 	--tab-active-background: transparent;
 	--tab-active-rounding: 0;
 } */
@@ -27,23 +44,15 @@
 /* :root {
 	--background-first: #e3e4e6;
 	--background-second: transparent;
-	--tab-color-active: #000;
-	--tab-color-hover: #3a3a3a;
-	--tab-color-inactive: #747474;
-	--tab-color-pending: #aeaeae;
-	--nav-bar-padding: 0;
+	--url-bar-margin: 0;
 	--tab-active-background: transparent;
 	--tab-active-rounding: 0;
-}*/
+} */
 
  /* For default theme  */
 :root {
 	--background-first: #515658;
 	--background-second: #2c3133;
-	--tab-color-active: #fff;
-	--tab-color-hover: #c5c5c5;
-	--tab-color-inactive: #8b8b8b;
-	--tab-color-pending: #515151;
 	--url-bar-margin: 2px;
 	--tab-active-background: #515658;
 	--tab-active-rounding: 5px;

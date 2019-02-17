@@ -1,5 +1,5 @@
 #appcontent browser {
-	margin-bottom: -12px !important;
+	margin-bottom: var(--scroll-bar-remove) !important;
 	margin-right: var(--scroll-bar-remove) !important;
 }
 
@@ -7,6 +7,10 @@ findbar {
 	padding-top: 12px !important;
 }
 
+#sidebar-splitter[ordinal="3"] {
+	margin-left: var(--scroll-bar-height); 
+}
+
 #sidebar-box[ordinal="4"] {
-	padding-left: 12px !important;
+	padding-left: var(--scroll-bar-height) !important;
 }

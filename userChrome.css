@@ -10,7 +10,9 @@
 
 @import "css/move-identity-lock-right.css";
 
-@import "css/show-bookmarks-only-on-newtab.css";
+/* However, with this, home page image's jump look ugly */
+/* You don't need it, since you have Ctrl+Shift+o */
+/* @import "css/show-bookmarks-only-on-newtab.css"; */
 
 @import "css/findbar.css";
 

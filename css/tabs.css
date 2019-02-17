@@ -22,7 +22,9 @@
 	color: var(--tab-color-pending) !important;
 }
 
-
+#TabsToolbar {
+	background: var(--background-second) !important;
+}
 
 
 /* Misc */
@@ -46,6 +48,13 @@
 	--tabs-border: transparent !important;
 }
 
+/* Not you can have tab with width of window */
+/* But you shouldn't make this with Default theme */
+/* Disable it, if you want default tab width */
+.tabbrowser-tab {
+/* 	max-width: var(--max-tab-width) !important; */
+}
+
 
 /* Minimizing */
 /* ==========*/
@@ -58,19 +67,12 @@
 }
 /* If you enable one above, enable one below */
 .tab-text {
-/* 	margin: 1px !important;  */
+/* 	margin-bottom: 1px !important;  */
 }
 
 /* No horizontal tab padding, you shouldn't do this */
 .tab-content {
 /* 	padding: 0 !important; */
-}
-
-/* Not you can have tab with width of window */
-/* But you shouldn't make this with Default theme */
-/* Disable it, if you want default tab width */
-.tabbrowser-tab {
-	max-width: var(--max-tab-width) !important;
 }
 
 /* When you close browser, node doesn't deletes, just removes fadein attr */

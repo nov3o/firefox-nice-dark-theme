@@ -10,9 +10,9 @@
 }
 
 #PanelUI-button {
-/* Nice */
+/* For nice display */
   margin-top: -23px;
-/* Hot spot */
+/* For hot spot */
   margin-top: -25px;
 }
 
@@ -20,6 +20,10 @@
 #PanelUI-button .toolbarbutton-badge-stack {
   border-radius: 0 !important;
   border-bottom-right-radius: var(--toolbarbutton-border-radius) !important;
+}
+
+#PanelUI-menu-button {
+  padding: 0 !important;
 }
 
 #TabsToolbar {
