@@ -1,31 +1,31 @@
-findbar {
+#tabbrowser-tabpanels findbar {
 	background: var(--background-first) !important;
 	border: none !important;
 }
 
-.findbar-container hbox * {
+#tabbrowser-tabpanels .findbar-container hbox * {
 	border: none !important;
 	background: transparent !important;
 }
 
-findbar .findbar-container {
+#tabbrowser-tabpanels findbar .findbar-container {
 	padding: 0 10px !important;
 }
 
-findbar toolbarbutton {
+#tabbrowser-tabpanels findbar toolbarbutton {
 	padding: 0 !important;
 }
 
-findbar .tabbable {
+#tabbrowser-tabpanels findbar .tabbable {
 	padding: 0 4px !important;
 }
 
-findbar .textbox-input {
+#tabbrowser-tabpanels findbar .textbox-input {
 	color: var(--tab-color-hover) !important;
 }
 
-findbar .findbar-textbox {
-	background: var(--background-second) !important; 
+#tabbrowser-tabpanels findbar .findbar-textbox {
+	background: var(--background-second) !important;
 	border-radius: 0 !important;
 /* Makes smallest possible size */
 /* 	padding: 0 !important; */

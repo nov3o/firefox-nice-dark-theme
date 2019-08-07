@@ -1,24 +1,24 @@
 /* Color */
 /* ===== */
 /* Disables tabs' background color and tab line */
-.tab-background {
+#tabbrowser-tabs .tab-background {
 	display: none !important;
 }
 
 /* Text color transition */
-.tabbrowser-tab[selected="true"] {
+#tabbrowser-tabs .tabbrowser-tab[selected="true"] {
 	color: var(--tab-color-active) !important;
 	background: var(--tab-active-background) !important;
 	border-top-left-radius: var(--tab-active-rounding) !important;
 	border-top-right-radius: var(--tab-active-rounding) !important;
 }
-.tabbrowser-tab:not([selected]):hover {
+#tabbrowser-tabs .tabbrowser-tab:not([selected]):hover {
 	color: var(--tab-color-hover) !important;
 }
-.tabbrowser-tab:not([selected]) {
+#tabbrowser-tabs .tabbrowser-tab:not([selected]) {
 	color: var(--tab-color-inactive) !important;
 }
-.tabbrowser-tab[pending] {
+#tabbrowser-tabs .tabbrowser-tab[pending] {
 	color: var(--tab-color-pending) !important;
 }
 
@@ -30,17 +30,17 @@
 /* Misc */
 /* ==== */
 /* Remove borders from inactive tabs */
-.tabbrowser-tab::after, .tabbrowser-tab::before {
+#tabbrowser-tabs .tabbrowser-tab::after, .tabbrowser-tab::before {
    border-left: none !important;
 }
 
-/* Removes space in the beginning and end of tab bar */
-.titlebar-spacer {
+/* Removes space at the beginning and at the end of tab bar */
+#tabbrowser-tabs .titlebar-spacer {
 	display: none !important;
 }
 
 /* Favicons rounding */
-.tab-icon-image {
+#tabbrowser-tabs .tab-icon-image {
 	border-radius: 50% !important;
 }
 /* Remove borders from active tab and below tabs */
@@ -48,50 +48,75 @@
 	--tabs-border: transparent !important;
 }
 
-/* Not you can have tab with width of window */
+/* Now you can have tab with width of window */
 /* But you shouldn't make this with Default theme */
 /* Disable it, if you want default tab width */
-.tabbrowser-tab {
-/* 	max-width: var(--max-tab-width) !important; */
+#tabbrowser-tabs > .tabbrowser-tab {
+	/* max-width: var(--max-tab-width) !important; */
+	/* Next for default tabs with rounding */
+	/* padding: 2px !important; */
+}
+
+#TabsToolbar .private-browsing-indicator {
+/* Looks more nice */
+	margin: 0 !important;
+	height: 16px !important;
+	width: 16px !important;;
+	background-size: 16px !important;
+}
+
+#window-controls {
+/* Firefox places buttons like Close, Minimize, Maximize even if you're using linux! */
+	display: none;
 }
 
 
-/* Minimizing */
+/* Mimimizing */
 /* ==========*/
 :root {
-	--tab-min-height: 20px !important;
+	--tab-min-height: 18px !important;
 }
 /* Tabs looks some more decent without next */
-.tab-label {
-/* 	line-height: 1em !important; */
+#tabbrowser-tabs .tabbrowser-tab .tab-label {
+	line-height: 1em !important;
 }
 /* If you enable one above, enable one below */
-.tab-text {
-/* 	margin-bottom: 1px !important;  */
+#tabbrowser-tabs .tabbrowser-tab .tab-text {
+	margin-bottom: 0px !important;
+}
+
+#tabbrowser-tabs .tabbrowser-tab .tab-icon-image {
+	margin-top: 0px !important;
 }
 
 /* No horizontal tab padding, you shouldn't do this */
-.tab-content {
-/* 	padding: 0 !important; */
+#tabbrowser-tabs .tabbrowser-tab .tab-content {
+	padding: 0 !important;
+	max-height: 16px !important;
 }
 
 /* When you close browser, node doesn't deletes, just removes fadein attr */
 /* Next is to prevent having empty space of closed tab */
-.tabbrowser-tab:not([fadein="true"]) {
+#tabbrowser-tabs .tabbrowser-tab:not([fadein="true"]) {
 	display: none !important;
 }
 
 /* Disables white separator of tab bar arrows */
-.arrowscrollbox-overflow-end-indicator, .arrowscrollbox-overflow-start-indicator {
+#tabbrowser-tabs .arrowscrollbox-overflow-end-indicator,
+#tabbrowser-tabs .arrowscrollbox-overflow-start-indicator {
 	display: none !important;
 }
 
 /* Change it, as you wish */
-.scrollbutton-up, .scrollbutton-down {
+#tabbrowser-tabs .scrollbutton-up, .scrollbutton-down {
 	padding: 0 !important;
 }
 
 /* Without it will be gap between right arrow and browser's right border */
-#TabsToolbar .titlebar-buttonbox-container {
+#TabsToolbar .titlebar-buttonbox-container, #titlebar .titlebar-buttonbox-container {
+	display: none !important;
+}
+
+#TabsToolbar > .titlebar-spacer {
 	display: none !important;
 }

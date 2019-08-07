@@ -13,6 +13,7 @@
 /* However, with this, home page image's jump look ugly */
 /* You don't need it, since you have Ctrl+Shift+o */
 /* @import "css/show-bookmarks-only-on-newtab.css"; */
+@import "css/bookmarks.css";
 
 @import "css/findbar.css";
 
@@ -20,3 +21,8 @@
 
 /* You can enable it */
 @import "css/move-to-top-left-Linux-Windows.css";
+
+@import "css/menubar.css";
+
+/* This slows down a lot */
+@import "css/chrome-like.css"

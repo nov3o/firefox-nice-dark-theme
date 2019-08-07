@@ -2,7 +2,7 @@
 /* And more nice when you disabled all possible buttons on customization page */
 
 /* Close button disabling */
-.tab-close-button {
+#tabbrowser-tabs .tabbrowser-tab .tab-close-button {
 	display: none !important;
 }
 
@@ -17,13 +17,13 @@
 }
 
 /* No more buttons in end of url bar for except of zoom factor */
-#pocket-button-box, #pageActionButton, 
+#pocket-button-box, #pageActionButton,
 #reader-mode-button, #contextual-feature-recommendation {
 	display: none !important;
 }
 
 /* Disables down arrow */
-#nav-bar #urlbar .urlbar-textbox-container .urlbar-history-dropmarker {
+#urlbar .urlbar-textbox-container .urlbar-history-dropmarker {
 	display: none !important;
 }
 
@@ -40,22 +40,22 @@
 
 /* Zoom button */
 #urlbar-zoom-button {
-	display: none !important;
+	/*display: none !important;*/
 }
 
 /* Disables search icon on left of url bar */
-#urlbar[pageproxystate="invalid"] > #identity-box > #identity-icon {
+#urlbar[pageproxystate="invalid"] #identity-icon {
 	display: none !important;
 }
 
-#urlbar[pageproxystate="invalid"] > #identity-box {
+#urlbar[pageproxystate="invalid"] #identity-box {
 	padding: 0 !important;
 	height: 20px !important;
 }
 
 
 /* Disables left arrow after url bar */
-.urlbar-go-button, .search-go-button {
+#urlbar .urlbar-go-button, #urlbar .search-go-button {
 	display: none !important;
 }
 
@@ -64,9 +64,6 @@
 	display: none !important;
 }
 
-#nav-bar #PanelUI-button .toolbarbutton-badge-stack {
-	padding: 2px !important;
-}
 
 #identity-box {
 	padding-left: 4px !important;
@@ -74,6 +71,10 @@
 	border: none !important;
 }
 
-findbar toolbarbutton.close-icon {
+#tabbrowser-tabpanels .browserContainer toolbarbutton.close-icon {
+	display: none !important;
+}
+
+#library-button {
 	display: none !important;
 }

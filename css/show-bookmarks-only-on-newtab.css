@@ -14,5 +14,4 @@
 #main-window[title^="Firefox"] #PersonalToolbar,
 #main-window[title^="新标签页"] #PersonalToolbar {
   visibility: visible !important;
-  background-color: transparent !important;
 }

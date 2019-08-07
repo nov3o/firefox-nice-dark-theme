@@ -5,15 +5,7 @@
 
 #PanelUI-button {
   -moz-box-ordinal-group: 0;
-  border-left: none !important;
-  position: absolute; 
-}
-
-#PanelUI-button {
-/* For nice display */
-  margin-top: -23px;
-/* For hot spot */
-  margin-top: -25px;
+  position: absolute;
 }
 
 /* For hot spot */
@@ -26,7 +18,16 @@
   padding: 0 !important;
 }
 
+#nav-bar #PanelUI-button .toolbarbutton-badge-stack {
+	padding: 0 !important;
+}
+
 #TabsToolbar {
   /* Ensure the padding is always present even when maximized */
-  padding-inline-start: 22px !important;
+  padding-inline-start: 16px !important;
+}
+
+/* Set tab bar's opposite height */
+#PanelUI-button {
+	margin-top: -18px !important;
 }

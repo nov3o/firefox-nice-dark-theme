@@ -1,0 +1,16 @@
+#main-menubar menu {
+	-moz-appearance: none !important;
+}
+
+#main-menubar menu label {
+	margin: 0 !important;
+}
+
+#main-menubar menu menupopup {
+	border: 0 !important;
+}
+
+#toolbar-menubar {
+	padding: 0 !important;
+	background: var(--background-second)
+}

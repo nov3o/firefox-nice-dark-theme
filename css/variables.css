@@ -10,6 +10,7 @@
 	--scroll-bar-height: 12px;
 
 	--max-tab-width: 100vw; /* One tab in whole bar */
+	--url-bar-rounding: 0; /* 0/1em */
 }
 
 

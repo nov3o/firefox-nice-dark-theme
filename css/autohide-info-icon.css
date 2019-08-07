@@ -6,20 +6,21 @@
 /* Reverses */
 #identity-box {
 	-moz-box-direction: reverse;
+  outline: none !important;
 }
 
 /* Not to look too dense */
-#identity-box #identity-icon {
+#identity-icon {
   -moz-margin-start: 0.2em !important;
 }
 
 /* Space between identity icon label and lock */
-#identity-box #connection-icon {
+#connection-icon {
   margin-inline-start: 2px !important;
 }
 
 /* More nice */
-#identity-box #identity-icon-labels {
+#identity-icon-labels {
 	padding-left: 0px !important;
 }
 
@@ -34,7 +35,7 @@
 #identity-box:hover #blocked-permissions-container {
   visibility: visible !important;
 }
-#urlbar #identity-box:not([open="true"]) #identity-icon {
+#identity-box:not([open="true"]) #identity-icon {
   opacity: 0;
   -moz-margin-end: -1.2em;
 }
@@ -44,6 +45,6 @@
 }
 
 /* Thats better */
-#identity-box #identity-icon-labels {
+#identity-icon-labels {
   max-width: 33vw !important;
 }

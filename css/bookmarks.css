@@ -1,0 +1,20 @@
+#personal-bookmarks {
+	background-color: var(--background-first) !important;
+}
+
+#navigator-toolbox {
+	border: none !important;
+}
+
+#PersonalToolbar {
+	padding: 0 !important;
+}
+
+#PlacesChevron {
+	padding: 0 !important;
+}
+
+#PlacesToolbarItems > .bookmark-item {
+	padding: 0 !important;
+	margin-right: 2px !important;
+}

@@ -1,10 +1,11 @@
 #urlbar {
 	margin:0 !important;
 	background-color: transparent !important;
-	border-radius: 1em !important;
+	border-radius: var(--url-bar-rounding) !important;
 	border: none !important;
 	background: var(--background-second) !important;
 	margin: var(--url-bar-margin) !important;
+	padding-left: calc(var(--url-bar-rounding) / 3) !important;
 }
 
 #nav-bar {
@@ -19,7 +20,6 @@
 	height: 20px !important;
 	padding-left: 2px !important;
 	padding-right: 2px !important;
-	margin-right: 2px !important;
 }
 #urlbar {
 	min-height: 20px !important;
@@ -34,4 +34,8 @@
 /* Disables line between tab bar and nav bar */
 #navigator-toolbox {
 	--tabs-border-color: transparent !important;
+}
+
+:root {
+	--toolbarbutton-inner-padding: 0 !important;
 }

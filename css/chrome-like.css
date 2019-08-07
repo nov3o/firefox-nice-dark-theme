@@ -1,0 +1,14 @@
+#tabbrowser-tabs .tabbrowser-tab[selected="true"] + .tabbrowser-tab[fadein="true"] {
+  background-image: url(../images/right.png);
+  background-size: var(--tab-active-rounding);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+}
+
+#tabbrowser-tabs .tabbrowser-tab[beforeselected-visible="true"] {
+  background-image: url(../images/left.png) !important;
+  background-size: var(--tab-active-rounding);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  background-position-x: 100%;
+}
