@@ -11,7 +11,7 @@
 
 /* Not to look too dense */
 #identity-icon {
-  -moz-margin-start: 0.2em !important;
+  -moz-margin-start: 0 !important;
 }
 
 /* Space between identity icon label and lock */
@@ -24,27 +24,27 @@
 	padding-left: 0px !important;
 }
 
-/* Hides and shows only when popup is open or hover */
-#identity-box:not([open="true"]) #tracking-protection-icon-box,
-#identity-box:not([open="true"]) #identity-icon-labels,
-#identity-box:not([open="true"]) #blocked-permissions-container {
-  visibility: collapse !important;
-}
-#identity-box:hover #tracking-protection-icon-box,
-#identity-box:hover #identity-icon-labels,
-#identity-box:hover #blocked-permissions-container {
-  visibility: visible !important;
-}
-#identity-box:not([open="true"]) #identity-icon {
-  opacity: 0;
-  -moz-margin-end: -1.2em;
-}
-#identity-box:hover #identity-icon {
-  opacity: 1 !important;;
-  -moz-margin-end: initial !important;
+#tracking-protection-icon-container {
+  border: none !important;
 }
 
-/* Thats better */
-#identity-icon-labels {
-  max-width: 33vw !important;
+#tracking-protection-icon { 
+  margin-inline-start: 0 !important;
 }
+
+#identity-box:not([open=true]),
+#tracking-protection-icon-container:not([open=true]) {
+  visibility: collapse !important;
+}
+
+#urlbar-input-container:hover > #identity-box,
+#urlbar-input-container:hover > #tracking-protection-icon-container {
+  visibility: visible !important;
+}
+
+#identity-box[open ~= "true"], 
+#tracking-protection-icon-container[open ~= "true"],
+#tracking-protection-icon-container[open ~= "true"] + * {
+  visibility: visible !important;
+}
+

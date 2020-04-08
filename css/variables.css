@@ -6,8 +6,8 @@
 /* Global */
 :root {
 	/* Set opposite values */
-	--scroll-bar-remove: -12px;
-	--scroll-bar-height: 12px;
+	/* --scroll-bar-remove: -12px;
+	--scroll-bar-height: 12px; */
 
 	--max-tab-width: 100vw; /* One tab in whole bar */
 	--url-bar-rounding: 0; /* 0/1em */
@@ -16,30 +16,30 @@
 
 /* Text color */
 /* Bright colors */
- :root {
+:root {
 	--tab-color-active: #fff;
 	--tab-color-hover: #c5c5c5;
 	--tab-color-inactive: #8b8b8b;
 	--tab-color-pending: #515151;
 }
-/* Dark colors y*/
+/* Dark colors y */ 
 /* :root {
 	--tab-color-active: #000;
 	--tab-color-hover: #3a3a3a;
 	--tab-color-inactive: #747474;
 	--tab-color-pending: #aeaeae;
-} */
+}*/
 
 
 /* Themes */
 /* For dark theme */
-/* :root {
+:root {
 	--background-first: #0c0c0c;
 	--background-second: transparent;
 	--url-bar-margin: 0;
 	--tab-active-background: transparent;
 	--tab-active-rounding: 0;
-} */
+}
 
 /* For light theme */
 /* :root {
@@ -51,10 +51,10 @@
 } */
 
  /* For default theme  */
-:root {
+/* :root {
 	--background-first: #515658;
 	--background-second: #2c3133;
 	--url-bar-margin: 2px;
 	--tab-active-background: #515658;
 	--tab-active-rounding: 5px;
-}
+} */

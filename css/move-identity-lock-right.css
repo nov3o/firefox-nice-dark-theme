@@ -3,11 +3,7 @@
   https://github.com/Timvde/UserChrome-Tweaks/blob/master/navbar/move-identity-lock-right.css
 */
 
-#PopupAutoCompleteRichResult .autocomplete-richlistitem {
-  padding-inline-start: var(--item-padding-end) !important;
-}
-
-#urlbar > #identity-box {
+#urlbar-input-container > #identity-box,
+#urlbar-input-container > #tracking-protection-icon-container {
   -moz-box-ordinal-group: 99 !important; /* Move identity box to the end */
-  margin-inline-end: 0em !important; /* Remove the end margin */
 }

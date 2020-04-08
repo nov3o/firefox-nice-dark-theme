@@ -51,10 +51,8 @@
 /* Now you can have tab with width of window */
 /* But you shouldn't make this with Default theme */
 /* Disable it, if you want default tab width */
-#tabbrowser-tabs > .tabbrowser-tab {
-	/* max-width: var(--max-tab-width) !important; */
-	/* Next for default tabs with rounding */
-	/* padding: 2px !important; */
+#tabbrowser-tabs > arrowscrollbox > .tabbrowser-tab {
+	max-width: var(--max-tab-width) !important;
 }
 
 #TabsToolbar .private-browsing-indicator {

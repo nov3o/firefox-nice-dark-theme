@@ -28,5 +28,9 @@
 	background: var(--background-second) !important;
 	border-radius: 0 !important;
 /* Makes smallest possible size */
-/* 	padding: 0 !important; */
+	padding: 0 !important;
+}
+
+#tabbrowser-tabpanels > hbox > findbar {
+	padding: 0 !important;
 }

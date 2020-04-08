@@ -64,6 +64,12 @@
 	display: none !important;
 }
 
+#star-button {
+	padding: 0 !important;
+	height: 20px !important;
+	width: 16px !important;
+}
+
 
 #identity-box {
 	padding-left: 4px !important;
@@ -77,4 +83,12 @@
 
 #library-button {
 	display: none !important;
+}
+
+#urlbar-input-container > .urlbar-history-dropmarker {
+	display: none !important;
+}
+
+#urlbar-go-button { 
+  display: none !important;
 }

@@ -39,3 +39,30 @@
 :root {
 	--toolbarbutton-inner-padding: 0 !important;
 }
+
+#tracking-protection-icon-container {
+  padding: 0 !important;
+}
+
+#identity-box {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+#urlbar-container {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#urlbar > .urlbarView {
+	--item-padding-start: 0 !important;
+}
+
+#urlbar-results > * {
+	padding: 0 !important;
+}
+
+#urlbar-results {
+/* 	padding: 0 !important; */
+/* 	margin: 0 !important; */
+}

@@ -17,12 +17,10 @@
 
 @import "css/findbar.css";
 
-@import "css/remove-scrollbar.css";
-
-/* You can enable it */
-@import "css/move-to-top-left-Linux-Windows.css";
+/* You can enable it, but it's unstable */
+/* @import "css/move-to-top-left-Linux-Windows.css"; */
 
 @import "css/menubar.css";
 
 /* This slows down a lot */
-@import "css/chrome-like.css"
+/* @import "css/chrome-like.css" */

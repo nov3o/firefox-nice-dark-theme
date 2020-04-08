@@ -5,10 +5,6 @@
 	margin-right: var(--scroll-bar-remove) !important;
 }
 
-#tabbrowser-tabpanels findbar {
-	padding-top: 12px !important;
-}
-
 #sidebar-box[ordinal="4"] ~ #sidebar-splitter {
 	margin-left: var(--scroll-bar-height);
 }

@@ -18,3 +18,7 @@
 	padding: 0 !important;
 	margin-right: 2px !important;
 }
+
+#PlacesToolbarItems > .bookmark-item > .toolbarbutton-icon:not([type="menu"]) {
+	border-radius: 50%;
+}
