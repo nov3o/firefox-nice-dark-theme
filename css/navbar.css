@@ -63,6 +63,19 @@
 }
 
 #urlbar-results {
-/* 	padding: 0 !important; */
-/* 	margin: 0 !important; */
+	padding: 0 !important;
+}
+
+#urlbar-results > div > span {
+	padding: 0 !important;
+  align-items: start !important;
+	display: inline !important;
+}
+
+#urlbar-results > div > span > span {
+	display: inline !important;
+}
+
+#urlbar > .urlbarView > .search-one-offs {
+	padding: 0 !important;
 }
