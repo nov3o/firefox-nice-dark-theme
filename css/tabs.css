@@ -6,8 +6,8 @@
 }
 
 /* Text color transition */
-#tabbrowser-tabs .tabbrowser-tab[selected="true"] {
-	color: var(--tab-color-active) !important;
+#tabbrowser-tabs .tabbrowser-tab[selected="true"]. {
+/* 	color: var(--tab-color-active) !important; */
 	background: var(--tab-active-background) !important;
 	border-top-left-radius: var(--tab-active-rounding) !important;
 	border-top-right-radius: var(--tab-active-rounding) !important;
@@ -24,6 +24,11 @@
 
 #TabsToolbar {
 	background: var(--background-second) !important;
+}
+
+#tabbrowser-tabs .tabbrowser-tab[multiselected]:-moz-lwtheme {
+	color: var(--tab-color-active) !important;
+	background: var(--tab-select-background) !important;
 }
 
 
@@ -64,7 +69,7 @@
 }
 
 #window-controls {
-/* Firefox places buttons like Close, Minimize, Maximize even if you're using linux! */
+/* In Linux builds Firefox place window layout buttons of Windows 10 windows */
 	display: none;
 }
 

@@ -5,56 +5,55 @@
 
 /* Global */
 :root {
-	/* Set opposite values */
-	/* --scroll-bar-remove: -12px;
+	/* Set opposite values for scroll bar removal. Works unstable */
+/* 	--scroll-bar-remove: -12px;
 	--scroll-bar-height: 12px; */
 
 	--max-tab-width: 100vw; /* One tab in whole bar */
-	--url-bar-rounding: 0; /* 0/1em */
+ 	--url-bar-rounding: 0em; /* 0/1em */ 
 }
 
 
-/* Text color */
-/* Bright colors */
-:root {
-	--tab-color-active: #fff;
-	--tab-color-hover: #c5c5c5;
-	--tab-color-inactive: #8b8b8b;
-	--tab-color-pending: #515151;
-}
-/* Dark colors y */ 
-/* :root {
-	--tab-color-active: #000;
-	--tab-color-hover: #3a3a3a;
-	--tab-color-inactive: #747474;
-	--tab-color-pending: #aeaeae;
-}*/
-
-
-/* Themes */
-/* For dark theme */
+/* Dark Theme */
 :root {
 	--background-first: #0c0c0c;
 	--background-second: transparent;
 	--url-bar-margin: 0;
 	--tab-active-background: transparent;
 	--tab-active-rounding: 0;
+	--tab-select-background: rgba(255, 255, 255, 0.3);
+	
+	--tab-color-active: #fff;
+	--tab-color-hover: #c5c5c5;
+	--tab-color-inactive: #8b8b8b;
+	--tab-color-pending: #515151;
 }
 
-/* For light theme */
+/* Light Theme */
 /* :root {
 	--background-first: #e3e4e6;
-	--background-second: transparent;
+	--background-second: #e3e4e6;
 	--url-bar-margin: 0;
-	--tab-active-background: transparent;
+	--tab-active-background: #e3e4e6;
 	--tab-active-rounding: 0;
-} */
+	--tab-select-background: rgba(0, 0, 0, 0.3);
+	
+	--tab-color-active: #000;
+	--tab-color-hover: #3a3a3a;
+	--tab-color-inactive: #747474;
+	--tab-color-pending: #aeaeae;
+}
 
- /* For default theme  */
+/* Default Theme  */
 /* :root {
 	--background-first: #515658;
 	--background-second: #2c3133;
 	--url-bar-margin: 2px;
 	--tab-active-background: #515658;
 	--tab-active-rounding: 5px;
+
+  --tab-color-active: #fff;
+	--tab-color-hover: #c5c5c5;
+	--tab-color-inactive: #8b8b8b;
+	--tab-color-pending: #515151;
 } */
