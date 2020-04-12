@@ -11,6 +11,9 @@
 
 	--max-tab-width: 100vw; /* One tab in whole bar */
  	--url-bar-rounding: 0em; /* 0/1em */ 
+	
+  /* Property for one-line url-tab bar */
+	--urlbar-width: 40vw;
 }
 
 

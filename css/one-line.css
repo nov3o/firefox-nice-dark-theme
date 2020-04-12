@@ -1,0 +1,13 @@
+#nav-bar {
+  width: var(--urlbar-width) !important;
+  margin-right: calc(100vw - var(--urlbar-width)) !important;
+  margin-top: calc(-1*var(--tab-min-height)) !important;
+}
+
+#titlebar {
+  margin-left: var(--urlbar-width) !important;
+}
+
+#toolbar-menubar {
+  margin-left: calc(-1*var(--urlbar-width)) !important;
+}
