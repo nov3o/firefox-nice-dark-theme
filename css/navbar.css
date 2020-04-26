@@ -79,3 +79,29 @@
 #urlbar > .urlbarView > .search-one-offs {
 	padding: 0 !important;
 }
+
+#widget-overflow-fixed-list > * {
+	min-height: 10px !important;
+	padding: 0 5px !important;
+}
+
+#overflowMenu-customize-button {
+	padding: 0 5px !important;
+	min-height: 10px !important;
+}
+
+#appMenu-mainView > vbox > * {
+	padding: 0 5px !important;
+	min-height: 10px !important;
+}
+
+#appMenu-mainView, #appMenu-mainView > vbox {
+	padding: 0 !important;
+	min-height: 0 !important;
+	min-width: 0 !important;
+}
+
+#appMenu-mainView > vbox > toolbarseparator {
+	margin: 0 !important;
+	min-height: 1px !important;
+}
